@@ -1,0 +1,167 @@
+/*
+Theme Name: Curso WP
+Theme URI: http: / localhost / aula-de-wordpress
+Description: Site Para o curso de WP
+Author: Bonette
+Author URI: http: / localhost / aula-de-wordpress
+Version: 1.0
+*/
+
+
+
+body {
+    background-color: #0a0a0c ;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: 'Sriracha', cursive;
+}
+
+
+.header {
+    height: 100vh;
+    background: url(kindred1.png) center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 a {
+    color: #fff;
+    
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.header .infor {
+    margin: 0 auto;
+    width: 1100px;
+    text-align: center;
+    color: #fff;
+    padding: 4rem;
+}
+
+p {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.custom-botao {
+    display: block;
+    padding: 5px 15px;
+    background-color: #9400D3;
+    border-radius: 30px;
+    margin: 0 auto;
+    width: 200px;
+    color: #fff;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+}
+
+img {
+    max-height: 100%;
+}
+
+
+#logo {
+    max-height: 100%;
+    padding-left: 15%;
+ }
+ 
+ ul li a {
+     font-size: 22px;
+     font-family: 'Balsamiq Sans', cursive;
+     margin-left:2rem;
+ }
+
+ .infor {
+    font-family: 'Staatliches', cursive;
+    padding-top: 5rem;
+}
+
+.infor h1 {
+    font-size: 150px;
+}
+
+.wrap {
+    padding: 14rem;
+}
+
+.blog .wrap {
+    padding: 9rem 0;
+}
+
+.blog h2 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    color: #9400D3;
+    font-size: 94px;
+    font-weight: 200%;
+}
+
+.liste-posts{
+    background: white;
+    float: left;
+    margin-bottom: 65px;
+
+}
+
+.liste-posts img{
+    float: left;
+    padding: 4rem 0;
+    height: 380px;
+    padding: 0;
+    padding-bottom: 0;
+    margin-right: 20px;
+    width: 630px;   
+}
+
+.box-content-post {
+    float: right;
+    width: 940px;
+    padding: 1rem 0;
+    margin-right: 5px;
+}
+
+.box-content-post h2 {
+    color: #9400D3;
+    font-size: 52px;
+    margin-top: 0;
+    font-weight: 140%;
+}
+
+.box-content-post p {
+    color: #1C1C1C;
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.box-content-post a {
+    text-align: center;   
+}
+
+.segundo-post img {
+    float: right;
+    padding: 4rem 0;
+    height: 350px;
+    padding: 0;
+    padding-bottom: 0;
+    margin-left: 20px;  
+    margin-right: 0;
+    
+    
+   
+}
+
+.segundo-post .box-content-post {
+    float: left;
+}
